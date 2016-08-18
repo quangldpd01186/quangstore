@@ -1,0 +1,360 @@
+* {outline:none !important;}
+body {background:url(../images/login_bg.jpg);background-position: center;}
+a {text-decoration:none;outline:none} ul {list-style:none;position:relative}
+* {margin:0;padding:0}
+a:hover{text-decoration:none}
+em {font-style:normal}
+/* -------------------------------------HEADER --------------------------------- */
+header {
+	position:fixed;
+	height:90px;
+	width:80%;
+	box-shadow: 0 0 5px rgba(0,0,0,0.25);
+	top:0;
+        right:0;
+	background:rgba(0,0,0,0.8);
+	z-index:119;
+	overflow:hidden}
+header > .content {width: 85%; margin-left: 200px;}
+header > .content > ul {overflow:hidden; margin: 15px 0px 0 400px; width: 100% }
+header .menu1{width: 60%; float;}
+header .menu1 > li{
+	float:left;
+	width:22%}
+header .menu1 > li > a,.menupopup {color:#ccc;font-weight:600;font-size:14px;line-height:50px;text-align:center;cursor:pointer;}
+header .menu1 > li > a > i , .menupopup > i{margin-right:5px}
+header .shopcart{margin-right: 10px}
+header .shopcart  img {width: 44px; margin-top: -6px;}
+header .shopcart > a > span {
+    color: #fff;
+    
+    padding: 10px;
+    border-radius: 15px;
+    margin-right: 0px;
+    padding-right: 30px;
+	border:2px solid #fff}
+.helone1a  > a > i {color: red;}.helone1aa   {color: red;}
+/* -------------------------------------MENU LEFT --------------------------------- */
+#menu-left {
+	width:20%;
+	background:rgba(0,0,0,0.8);
+	position:fixed;
+	height:100%;
+	top:0px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.25);
+	z-index:1120}
+#menu-left .logo{margin-left: 70px;}
+#menu-left .timkiem {
+	margin:10px 20px 20px ;
+	border:2px solid #424242;
+	position:relative;}
+#menu-left .timkiem  .ip1 {
+	width:100%;
+	padding:7px 10px;
+	border:none;
+	background:white}	
+#menu-left .timkiem  .ip2 {
+	width: 50px;
+    background: url(../images/icon_sot.png) no-repeat;
+    border: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+	height:100%;
+	background-position: 15px 5px;}
+
+#menu-left .danhmucmenu {
+	margin:20px;
+	position:relative;
+        text-align: center}
+#menu-left .danhmucmenu > .dmcap1{
+	padding-bottom:10px;
+	padding-top:15px;
+	margin:0;}
+#menu-left .danhmucmenu > .dmcap1 > .adm {
+	text-transform:uppercase;
+	font-size:16px;
+	font-weight:600;
+	display:block;
+	color:#424242;
+        word-spacing: 4px;
+	text-shadow: 1px 1px 3px rgba(0,0,0,0.2);}
+#menu-left .danhmucmenu > .dmcap2{
+	margin:0;
+	padding:5px 0;}
+#menu-left .danhmucmenu > .dmcap2 > a {
+	text-transform:uppercase;
+	font-size:22px;
+	display:block;
+	color:#fff;
+    word-spacing: 2px;
+    font-weight: bold;
+}
+#menu-left .danhmucmenu > .dmcap2 > a >i{color:#AFAFAF}
+#menu-left  .followme {
+	margin:20px;
+	position:relative;}
+#menu-left  .followme > p {text-align:center}	
+#menu-left .danhmucmenu > .dmcap1 > .adm > i {margin-right:3px}
+#menu-left .danhmucmenu > .dmcap2 > a > i {margin-right:7px}
+
+#menu-left .danhmucmenu > .dmcap2:hover {box-shadow:16px 0 30px rgba(0,0,0,0.25);transition:all 0.5s ease} 
+#menu-left .danhmucmenu > .dmcap2:hover a {padding-right:20px;transition:all 0.5s ease;font-weight:600;letter-spacing:1px;word-spacing:3px;color:#1E81D6}
+#menu-left .danhmucmenu > .dmcap2:hover  a >i{color:#1E81D6}
+/* -------------------------------------CONTENT --------------------------------- */
+section {position:relative;z-index:111;margin-left:250px;margin-top:90px}
+section > .content {margin-left:20px;margin-right:15px}
+section .slider {
+	width:100%;
+	overflow:hidden;
+	box-shadow: 0 0 5px rgba(0,0,0,0.25);
+	padding:5px;
+	background:#fff}
+section .jgallery.jgallery-slider.text-shadow {
+    width: 99% !important;
+	height:350px !important;} 
+	
+.main-content  {
+	background:#fff;padding-top:10px
+}
+.main-content .title-sp {
+	font-size:16px;
+	text-transform:uppercase;
+	color:#fff;
+	background: #222526 url("../images/bg_blue.jpg") 0 -95px;
+	padding:15px 20px;
+	font-weight:700;
+	margin-top:10px;
+	margin-bottom:0;
+	box-shadow: 0 0 5px rgba(0,0,0,0.25);
+	border:1px solid #fff;text-shadow:1px 1px 2px rgba(0,0,0,0.5)}	
+.main-content .spham > img {
+	width: 260px;
+    margin: 20px auto;
+    height: 250px;
+	display:block;}
+.main-content .spham > .price-sp{color:#BF0B0B;font-size:24px;font-weight:600;letter-spacing:3px}
+.main-content .spham > .namesp {color:#424242;font-weight:600;font-size:14px;margin-top:0;margin-bottom:5px;letter-spacing:1px;word-spacing:0px;text-transform: uppercase;}
+.main-content .spham > .motasp {text-align:justify;font-size:12px;height:33px;overflow:hidden;color:#424242}
+.main-content .spham > .addca {margin-top:20px}
+.main-content .spham  {border: 1px solid #EAE1E1; text-align: center;}
+
+.main-content .spham:hover {box-shadow: 0 0 40px rgba(0,0,0,0.25);transition:all 0.5s ease}
+.main-content .spham:hover > .anhhieuung {
+	animation-name: tossing;
+	-webkit-animation-name: tossing;
+
+	animation-duration: 2.5s;
+	-webkit-animation-duration: 2.5s;
+
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+/* -------------------------------------FOOTER --------------------------------- */
+footer {margin:15px 15px 0 20px;}
+.footer-title{ background-color:#cdcdcd; padding:8px 0px 8px 10px; text-align:center}
+.footer-title a{ color:#0f0f0f;  padding: 0 5px; text-decoration: none; font-size:11px;}
+.footer-title a:hover{ color:#e71211;}
+.footer-content{ padding:10px;  line-height:18px; background-color:rgba(0,0,0,0.8); color:#ccc}
+/* -------------------------------------ANIMATION CLOUD --------------------------------- */
+.anicld1 {
+	width: 58%;
+    position: absolute;
+    top: -85px;}
+.anicld {
+	width: 35%;
+    position: absolute;
+    top: -50px;
+    left: 0;}
+.anicld2 {
+	width: 35%;
+    position: absolute;
+    top: -50px;
+    left: -300px;}
+	
+/* ------------------------------------ CHI TIẾT --------------------------------- */
+	
+.linksp {margin:5px 15px;font-size:14px;background:#f1f1f1;padding:10px  }
+.linksp > span > i {font-size:8px; vertical-align:2px;letter-spacing:-4px}	
+.linksp > span {display:inline-block;margin:0 10px}
+#chitietsp .ct-chitiet {padding-bottom:15px;margin-top:20px;position:relative;display:block}
+#chitietsp .hinhsp .hinhmota {
+	border:1px solid #f1f1f1;
+	display:block;}
+#chitietsp .hinhsp .hinhmota  > img {width:95%;margin:10px auto;display:block}
+#chitietsp .ct-chitiet .motasanpham {padding-left:20px;font-family: tahoma;}
+#chitietsp .ct-chitiet .motasanpham > h3{margin:0 0 10px 0;font-size:18px;font-weight:600;color:#03a3e1;text-transform:uppercase}
+#chitietsp .ct-chitiet .motasanpham > .giasp {
+	background: #222526 url("../images/bg_blue.jpg");
+	padding:30px;
+	font-size:20px;
+	color:#fff;
+	font-weight:500;
+	margin-top:25px;
+	margin-bottom:15px;
+	text-shadow:1px 1px 2px rgba(0,0,0,0.5)}
+#chitietsp .ct-chitiet .motasanpham > .giasp >em {font-size:30px}
+#chitietsp .ct-chitiet .motasanpham > .mh1  > a {display:block;margin-top:25px}
+#chitietsp .ct-chitiet .motasanpham > .mh1  > a > img {width:180px}
+#chitietsp .ct-chitiet .motasanpham > .mh1 {font-size:14px;color:#424242;margin:0;padding:0}
+
+#chitietsp .ct-chitiet .motasanpham > .size1 {margin:15px 0}
+#chitietsp .ct-chitiet .motasanpham > .size1 >em {padding:5px;font-weight:600;border:1px solid #066EAB;margin-left:7px}
+#chitietsp .anhsplienquan {margin:20px}
+#chitietsp .anhsplienquan >.col-md-6 > img{width:90%;display:block;margin:10px auto}
+#chitietsp .anhsplienquan  > p {padding:20px;background:#f1f1f1;}
+#chitietsp .anhsplienquan  > p >i {font-size:12px}
+.kmnew{
+	position: absolute;
+    top: -2px;
+    width: 68px !important;
+    height: 65px !important;
+    left: 0px;}
+.kmne .anhkm, .newne .anhnew {width:34px;float:left}
+.kmne strong {
+	    color: #6B6868;
+    text-decoration: line-through;
+    font-size: 18px;font-weight: 500;
+    padding-left: 40px;}
+.fixcto > .chu1 > img {width:40px;margin-right:10px}
+.fixcto > .chu1 {font-size:12px;font-weight:600;margin-right:20px}
+span.gkm1 {
+    text-decoration: line-through;
+    padding-left: 54px;
+    color: #352F2F;
+}	
+::-webkit-scrollbar { width: 15px;}
+::-webkit-scrollbar-track {background-color: #424242}
+::-webkit-scrollbar-thumb {background-color: #6B6868;border-radius:3px;box-shadow:  1px 1px 3px rgba(0,0,0,0.5);opacity:0.5}
+::-webkit-scrollbar-thumb:hover {background-color: #E83A3A}
+
+#chitietsp .fixcto{margin-bottom:30px}
+#chitietsp  .mha1 em {width:70px;display:inline-block;}
+#chitietsp  .mha1 strong {display:inline-block;border-bottom:1px dotted #424242;padding:0 10px;color:#03a3e1;padding-bottom:2px}
+#chitietsp  .mha1 {
+	margin-top:7px !important;
+	font-family: Helvetica;font-weight:600}
+#chitietsp  .mha1 >select {border:none;border-bottom:1px dotted #424242;padding:0 10px 2px 6px;font-weight:600;color:#EF6369;margin-left: -4px;}
+#chitietsp  .muahangne{border:none;background:url(../images/bt_mua.jpg) ;  margin-top: 29px;}
+#chitietsp  .muahangne > img {}
+
+/* ------------------------------------ GIỎ HÀNG --------------------------------- */
+#giohang > h3 {
+	margin:30px 15px;font-weight:600;font-size:16px;text-shadow: 1px 1px 3px rgba(0,0,0,0.2);}
+#giohang > h3 > i {margin-right:7px;color:#424242}
+#giohang .chitietgh {font-weight:600;margin:10px 15px 0 ;text-align:center;background:#352F2F;color:#fff;text-shadow:1px 1px 2px rgba(0,0,0,0.25)}
+#giohang .chitietgh .obj1 {border:1px solid #fff;padding:10px 0;    box-shadow: 1px 1px 2px rgba(0,0,0,0.25);}
+#giohang .chitietgh1 .obj2{font-weight:500;text-align:center}
+#giohang .chitietgh1 .obj22 > .dtsp1{padding:0}
+#giohang .chitietgh1 .obj22 > .dtsp1 > img{height:90px;margin-top:-10px}
+#giohang .chitietgh1 .obj22 > .dtsp1 > a{font-weight:600;margin:0 auto;color:#424242;}
+#giohang .chitietgh1 .obj22 > .dtsp1 > a > h4 {font-size:16px;margin:0;}
+#giohang .chitietgh1 .obj2 > a  {display:block;font-size:20px;color:#E83A3A}
+#giohang .chitietgh1 > div {padding-top:15px}
+#giohang .chitietgh1 {height:110px;border:1px solid #f1f1f1;margin:0 10px}
+#giohang .sochan {background:#f1f1f1}
+
+#giohang .tongtien {margin:0 10px;border-top:4px ridge #ccc;padding:15px 0;background:#f1f1f1}
+#giohang .tongtien > .ttien2 {font-size:14px;font-weight:600;text-align:center;}
+#giohang .tongtien > .ttien2 > .sotientong {font-size:16px;color:#03a3e1;padding:10px}
+#giohang .tongtien > .ttien1 {font-style:italic;color:#424242;}
+.ghnull {font-size:20px;text-align:center;margin:50px 0;}
+
+.thanhtoan {text-align:right;padding-right: 10px;}
+.thanhtoan> a {display:inline-block;text-align:right;}
+.thanhtoan > a >img {width:200px}
+.CNSLNE > input {width:60px;text-align:center;}
+.CNSLNE > input:focus {background:rgba(70, 183, 225, 0.55);font-weight:600;}
+.CNSLNE > button {background:none;border:none; color:green;margin-left:10px;font-size:20px;vertical-align: -3px}
+/* ------------------------------------ MÀU SẮC --------------------------------- */
+.mauxanh {color:#2389D4;font-size:16px}
+.maudo{color:#EF6369}
+.maudoo {color:white;    padding: 4px 7px;
+    background-image:url(../images/cart.png);
+    margin-right: 7px;
+.phanloaisp {font-size:16px;font-weight:blod; border-bottom:5px ridge #f1f1f1;color:#424242;padding-bottom:20px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);word-spacing: 4px;text-transform:uppercase; padding-left: 15px}
+.phanloaisp  > i {margin-right:10px;    font-size: 18px;}
+
+/* ------------------------------------ LOGIN --------------------------------- */
+#login {background-image: url('../images/loginbox_bg.png')}
+
+#login > .ct-poplog {overflow:hidden;width:518px;background-image: url(../images/loginbox_bg.png);vertical-align:middle;display:block;margin:150px auto}
+#login > .ct-poplog > h3 {padding:20px;font-size:20px;text-transform:uppercase;padding-left:33px; font-weight:500;color:#fff;text-align:center;text-shadow:1px 1px 2px rgba(0,0,0,0.5);position:relative;margin-top:0;}
+#loginForm ,#loginFormn{margin-top:20px;padding:10px;}
+#loginForm  > p > span,#loginFormn > p > span {width:107px;display:inline-block;text-align:right;padding-right:10px;margin-bottom:10px}
+#loginForm  > p > input,#loginFormn  > p > input  {border:none;border-bottom:1px dotted #424242;padding:7px;width:280px}
+#loginForm  > button,#loginForm  > .buttonnemi,#loginFormn  > button,#loginFormn  > .buttonnemi   {background:none;border:none;margin-top:10px;color:#BF0B0B;font-weight: 500;cursor:pointer;}
+#loginForm  > button > i,#loginForm  > .buttonnemi > i,#loginFormn  > button > i,#loginFormn  > .buttonnemi > i {padding:4px;border:1px solid #BF0B0B;border-radius:50px;margin-right:5px}
+#loginForm .pop-huylogin,#loginFormn .pop-huylogin  {color:#fff;    margin-right: 110px; margin-left: 110px;}
+#loginForm  > .pop-huylogin > i,#loginFormn  > .pop-huylogin > i   {border:1px solid #0A7396;}
+.qmkdktk {margin:15px 40px 15px 45px; padding:15px 15px 5px;}
+#login1Form{position: absolute; top:50px;}
+
+
+/* ------------------------------------ ĐĂNG KÝ --------------------------------- */
+#baoloi {background:#f1f1f1;}#baoloi>span {padding:10px;display:block;}
+#mySingup .dangkytkm1 {position:relative;margin-top:25px;}
+#mySingup .dangkytkm1 > li {padding-top:10px;}
+#mySingup .dangkytkm1 > li > p {padding-left:20px;}
+#mySingup .dangkytkm1 > li > p > span {display:inline-block;width:150px;text-align:right;padding-right:7px;}
+#mySingup .dangkytkm1 > li > p > input,#mySingup .dangkytkm1 > li > p > select {width:60%;padding:0 5px;border:none;border-bottom:1px dotted #424242;font-weight:600;} 
+#mySingup .thanhkute > li > p >span {width:85px;}
+.indam {font-weight:600;}
+.luuykhidk  {background:#f1f1f1;padding:10px;margin-bottom:5px;}
+.luuykhidk > p {margin:0}.luuykhidk > p > i {font-size:10px;margin-right:10px}
+.nutdangkytk {    margin-top: 36px; padding-top: 15px !important;border-top: 5px ridge #f1f1f1;padding-right:30px;text-align:right;}
+.nutdangkytk > button {background:none;border:none;color:#2389D4;text-transform:uppercase; text-shadow: 1px 1px 3px rgba(0,0,0,0.2);font-weight:600}
+.nutdangkytk > button > i {border:1px solid #2389D4;padding:5px;margin-right:10px;border-radius:20px;}
+.themchune {font-size:12px;text-transform:uppercase;display:block; margin-top: -33px;font-weight:500;}
+
+/* ------------------------------------LIÊN HỆ--------------------------------- */
+.bandoshop {padding:0;margin:0;margin-top:10px;}
+.doipassne {color:#2389D4;cursor:pointer;text-align:right;padding-right:35px;}
+#andine1, #andine2, #andine3 {display:none;}
+#andine1 > p > input , #andine2 > p > input {color:red;}
+
+.thongtinlienhe  > h4 {font-size:16px;font-weight:600;letter-spacing:1px;word-spacing:1px;text-shadow:1px 1px 2px rgba(0,0,0,0.25);margin:10px 20px }
+.thongtinlienhe  > h4 > i {margin-right:10px;}
+
+.contact1 {margin:0 0 0 20px;padding:10px 10px;}
+.contact1 >p {text-align:right;}
+.contact1  .ct-titto {text-align:left; margin-left: 25px;}
+.contact1  .ct-titto > i {margin-right:10px}
+.contact1  .ct-titto >span {display:inline-block;width:90px}
+.contact1  .ct-titto > strong {padding:5px;border-bottom:1px dotted #424242;display:inline-block;width:300px}
+#gioithieu > h4, #gioithieu > .contact1 {margin-left:0}
+
+
+.formlienhe  > p {margin: 15px;background:#f1f1f1;padding:15px;font-size:16px;}
+.ulformlienhe > li > p > span {display:inline-block;width:120px;text-align:right;padding-right:7px;}
+.ulformlienhe > li > p > input  {width:65%;padding:0 5px;border:none;border-bottom:1px dotted #424242;font-weight:600;} 
+.ulformlienhe > li {padding-top:10px;}
+.ulformlienhe .ndformlienhe > p > textarea{width:65%;padding:0 5px;border:none;resize:none;height:190px;background:url(../images/bg-txt.JPG);line-height: 21px;background-position-y: -16px;background-size: 31px;}
+#nutguiFormlh {border:none;margin-top: 0; padding-right: 50px;}
+
+#TTDonHang .ThanhToanTT > h3 {margin:15px;text-shadow: 1px 1px 3px rgba(0,0,0,0.2);font-size: 16px; font-weight: 600;}
+#TTDonHang .ThanhToanTT > h3 > i { margin-right: 7px; color: #424242;}
+.lueunni1 {background:#f1f1f1;padding:10px;margin:15px;font-size:16px;border-top: 5px ridge #CCCCCC;}
+.lueunni2 {font-size:16px; margin: 10px 25px;font-weight: 600;}
+.lueunni11 > span {width:80px;display:inline-block;margin:0 25px;}
+.lueunni11 > input {width:60%;padding:0 5px;border:none;border-bottom:1px dotted #424242;font-weight:600;}
+.lueunni11 > strong {padding-left:10px;border-bottom:1px dotted #424242;width:60%;display:inline-block;}
+#ButTTForm {background:none;border:none;}
+#ButTTForm  > img {width:200px;}
+.lueunni3 {text-align:right;margin:15px;}
+.lueunni112 {margin:0 15px;background:#f1f1f1;padding:5px 10px;font-weight:600;}
+.lueunni112 > strong {font-size:16px;}
+
+/* ------------------------------------LIÊN HỆ--------------------------------- */
+#sucdathang {position:fixed;top:0;bottom:0;left:0;right:0;background:rgba(0,0,0,0.5);z-index:999;}
+#sucdathang >.noidungsucdathang  {overflow:hidden;width:450px;background:#fff;vertical-align:middle;display:block;
+								margin:150px auto;padding-bottom:10px;border-bottom:5px solid #43B4DC;}
+#sucdathang > .noidungsucdathang > h4 {padding:20px;font-size:20px;text-transform:uppercase;background:url(../images/bg_blue.jpg);padding-left:33px;margin-bottom:20px;
+								font-weight:500;color:#fff;text-align:center;text-shadow:1px 1px 2px rgba(0,0,0,0.5);position:relative;margin-top:0;}
+#sucdathang > .noidungsucdathang > p{font-size:16px;margin:0 20px 5px}#sucdathang > .noidungsucdathang > p > i {margin-right:7px;font-size:14px}
+#sucdathang > .noidungsucdathang > h4 > i {margin-right:15px;}
+.nuthoatpop1v > a {display:block}.nuthoatpop1v > a>img {width:150px}
+.nuthoatpop1v {text-align:right;background:#f1f1f1;padding:10px}					
+		
+
